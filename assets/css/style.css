@@ -54,8 +54,11 @@
 :root {
     --tg-body-font-family: 'Poppins', sans-serif;
     --tg-heading-font-family: 'Poppins', sans-serif;
-    --tg-primary-color: #F89E52;
-    --tg-secondary-color: #3482FF;
+    /* --tg-primary-color: #F89E52; */
+	     --tg-primary-color:#189446;
+	
+    /* --tg-secondary-color: #3482FF; */
+	 --tg-secondary-color: #6db544; 
     --tg-body-font-color: #666666;
     --tg-heading-font-color: #0B0B0B;
     --tg-banner-title-color: #2A2A2A;
@@ -5664,7 +5667,7 @@ label {
 	background: var(--tg-section-background-two);
 }
 .logo img {
-	max-width: 126px;
+	max-width: 100px;
 }
 .footer-top {
 	padding: 120px 0 80px;
@@ -5961,4 +5964,10 @@ label {
 }
 .slider-drag .swiper-slide {
   cursor: none;
+}
+
+@media (max-width: 992px) {
+	.logo img{
+		max-width: 60px;
+	}
 }
